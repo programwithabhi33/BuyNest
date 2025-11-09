@@ -14,6 +14,9 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'support_email' => env('SUPPORT_EMAIL', 'support@buynest.com'),
+    'support_phone' => env('SUPPORT_PHONE', '+91-9604154095'),
+    'support_address' => env('SUPPORT_ADDRESS', 'xyz street, xyz city'),
 
     /*
     |--------------------------------------------------------------------------
