@@ -34,7 +34,7 @@
             <!-- Header Actions -->
             <div class="flex items-center space-x-6">
                 <a
-                    href="#"
+                    href="{{ route("products.index") }}"
                     class="hidden items-center space-x-2 hover:text-blue-600 lg:flex"
                 >
                     <i class="fas fa-box text-xl"></i>
@@ -109,7 +109,7 @@
             <!-- Quick Actions -->
             <div class="mb-6 grid grid-cols-2 gap-3">
                 <a
-                    href="#"
+                    href="{{ route("products.index") }}"
                     class="flex flex-col items-center justify-center space-y-2 rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md"
                 >
                     <div
