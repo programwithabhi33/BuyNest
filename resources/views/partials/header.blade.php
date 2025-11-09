@@ -48,7 +48,7 @@
                     <span class="text-sm">Account</span>
                 </a>
                 <a
-                    href="#"
+                    href="{{ route("cart.index") }}"
                     class="relative flex items-center space-x-2 hover:text-blue-600"
                 >
                     <i class="fas fa-shopping-cart text-xl"></i>
@@ -122,7 +122,7 @@
                     </span>
                 </a>
                 <a
-                    href="#"
+                    href="{{ route("cart.index") }}"
                     class="relative flex flex-col items-center justify-center space-y-2 rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md"
                 >
                     <div
