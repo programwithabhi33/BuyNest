@@ -10,4 +10,8 @@ class ProductsController extends Controller
     {
         return view('products.index');
     }
+
+    public function detail($productSlug){
+        return view('products.detail', ['product-slug' => $productSlug]);
+    }
 }

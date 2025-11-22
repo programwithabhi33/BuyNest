@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="sticky top-0 z-50 bg-white shadow-lg">
+<header class="sticky top-0 z-50 bg-white shadow-sm">
     <!-- Main Header -->
     <div class="container mx-auto px-4 py-4">
         <div class="flex items-center justify-between">
@@ -41,8 +41,8 @@
                     <span class="text-sm">Products</span>
                 </a>
                 <a
-                    href="#"
-                    class="hidden items-center space-x-2 hover:text-blue-600 lg:flex"
+                    href="{{ route("register.view") }}"
+                    class="items-center space-x-2 hover:text-blue-600 lg:flex"
                 >
                     <i class="fas fa-user text-xl"></i>
                     <span class="text-sm">Account</span>
@@ -89,7 +89,7 @@
             <!-- User Section -->
             <div class="mb-6 border-b border-gray-200 pb-6">
                 <a
-                    href="#"
+                    href="{{ route("register.view") }}"
                     class="flex items-center space-x-4 rounded-lg p-3 transition hover:bg-blue-50"
                 >
                     <div
